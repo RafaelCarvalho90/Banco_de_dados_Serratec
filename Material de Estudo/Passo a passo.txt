@@ -1,0 +1,25 @@
+conecção>database>postgres>schemas
+
+#Primeira forma
+
+Via terminal
+
+abrir psql
+
+create database "nome do arquivo"  ;
+
+abrir o dbserver>clicar no arquivo e apertar f5
+
+>abrir prompt
+
+digitar cd C:\Program Files\PostgreSQL\15\bin
+
+pg_restore -U postgres -d dvdrental + o caminho do .tar
+
+depois digitar senha
+
+#Segunda forma
+
+clicar na conexao postgre > pressionar ctrl+F3(abrir script) > create database dvdrental; 
+
+ir tols > restore 

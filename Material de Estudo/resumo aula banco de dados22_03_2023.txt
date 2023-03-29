@@ -1,0 +1,36 @@
+resumo aula banco de dados
+
+
+chave primaria comeca com id_"nome"
+chave primaria recebe uma cor diferente
+exempo
+
+entidades = principal
+representado por retangulo
+
+acoes
+representado por losango
+
+
+Programas para acessar após
+mongo db
+
+
+Observações importantes
+nao usar nome como identificador
+usar id_
+
+
+mini mundo interpretar
+destrinchar 
+separar por topicos
+ver se nao precisa abrir mais os topicos
+
+iniciar o desenho
+
+
+MER
+Modelo entidade Relacionamento
+
+
+

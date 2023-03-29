@@ -1,0 +1,33 @@
+resumo aula 24/03/2023
+
+
+Projeto
+
+analise de requisitos
+projeto conceitual-Modelo entidade Relacionamento
+mapeamento-MER para modelo relacional
+projeto fisico	Linguagem de implementação
+
+
+entidade fraca - nao existem se remover do mapeamento que
+
+entidade forte sua existencia idepender de outras
+
+
+
+
+modelo unitario = pessoa é amiga
+
+modelo binario = aluno cursa disciplina
+
+modelo ternario = medico prescrve paciente, medicamento
+
+modelo relacional diferente do modelo de fluxograma
+
+
+colunas
+
+sem ponto final
+sem caixa alta
+sem caracter especial
+

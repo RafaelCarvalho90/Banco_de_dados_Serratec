@@ -1,0 +1,59 @@
+resumo aula 23/03/2023 Banco de dados
+
+Nao existe padrao na cardinalidade
+se voce comecar usar uma vai com ela até o final
+
+depende da empresa que vc esta trabalhando tbm
+por isso é importante conhecer varios modelos
+
+
+os circulos simbolizam os atributos
+
+
+
+
+Mnemonico
+Abreviação de algumas palavras
+
+-varchar()-> tx (como se fosse a cadeia de caracteres)
+-date->dt     (data)
+-integer, int4,int7-> int  (numeros inteiros, a diferenca entre int4 e int8 é a quantidade de bite armazena)
+-numeric -> nm (pode ser inteiro ou real) usa quando se fala em questao monetaria, quando tiver ponto flutuante
+-chave primaria(id)->cd 
+-char()-> tx (caracter)
+
+
+PK = Primary Key chave primaria
+
+FK = Foreing key chave estrangeira
+
+bl=boleano
+
+
+not null Nao deixar vazio
+exige que o usuario digita algo
+
+null unique = restringe o uso para apenas uma entrada 
+ex:CPF e login(que não pode se repetir)
+
+na ultima linha tera uma chave chamada FK foreing Key
+que leva para outra chave Pk
+
+Script
+
+
+colocar as no script = apelidadar
+colocar like = contenham
+%a = pesquisa tenha a por ultimo
+a% = listar com o primeira letra ex:(a)
+
+
+
+
+
+
+
+
+
+
+lembrar de mostrar hexadecimal
