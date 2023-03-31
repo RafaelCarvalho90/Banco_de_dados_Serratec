@@ -1,0 +1,33 @@
+// somar os valores da nota fiscal
+
+select  sum ((valor * quantidade)) as total
+from
+notafiscal
+
+
+//criação de view sem data
+
+CREATE OR REPLACE VIEW public.notafiscal
+AS SELECT usuario.usu_tx_nome AS nome,
+    item_pedido.itp_int_quantidade AS quantidade,
+    produto.pro_tx_nome AS produto,
+    produto.pro_nm_valor AS valor
+   FROM pedido
+     JOIN usuario ON usuario.usu_cd_id_usuario = pedido.fk_usu_cd_id_usuario
+     JOIN item_pedido ON item_pedido.itp_cd_id_item_pedido = pedido.fk_itp_cd_id_item_pedido
+     JOIN produto ON produto.pro_cd_id_produto = item_pedido.fk_pro_cd_id_produto;
+
+//criação de view com data
+
+
+
+CREATE OR REPLACE VIEW public.notafiscal
+AS SELECT usuario.usu_tx_nome AS nome,
+    item_pedido.itp_int_quantidade AS quantidade,
+    produto.pro_tx_nome AS produto,
+    produto.pro_nm_valor AS valor,
+    pedido.ped_dt_datapedido AS "data_de_emissão"
+   FROM pedido
+     JOIN usuario ON usuario.usu_cd_id_usuario = pedido.fk_usu_cd_id_usuario
+     JOIN item_pedido ON item_pedido.itp_cd_id_item_pedido = pedido.fk_itp_cd_id_item_pedido
+     JOIN produto ON produto.pro_cd_id_produto = item_pedido.fk_pro_cd_id_produto;
